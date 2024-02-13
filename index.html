@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Odin links and images</title>
+</head>
+<body>
+    <h1>Homepage</h1>
+    <!-- href = hypertext reference
+    target = specifies where link will open. Default is _self
+    rel = attribute, relation between current page and linked Document
+
+    SECURITY REASONS - always pair _black with noopener & noreferrer
+    noopener = prevents opened link from gaining access to page it was opened on. Prevents phishing attacks
+    noreferrer = prevents opened link from knowing which webpage has a link/reference to it -->
+
+    <!-- <a href="https://www.theodinproject.com/about" target="_blank" rel="noopener noreferrer">click me</a> -->
+    
+    <a href="./pages/about.html">About</a>
+    <!-- ./ specifies to code that it should look for file/directory relative to current directoty -->
+
+    <img src="https://www.theodinproject.com/mstile-310x310.png" alt="black pug on yellow background">
+
+    <img src="./images/dog.jpg">
+
+</body>
+</html>
